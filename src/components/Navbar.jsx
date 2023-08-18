@@ -28,7 +28,7 @@ const Navbar = () => {
 						className='w-20 h-20 object-contain'
 					/>
 					<p className='text-white text-[18px] font-bold cursor-pinter'>
-						Rutu Shinde
+						your name
 					</p>
 				</Link>
 				<ul className='list-none hidden flex-row gap-10 sm:flex '>
