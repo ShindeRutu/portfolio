@@ -27,6 +27,9 @@ import {
 	threejs,
 } from "../assets";
 
+/*
+ * You can add more navlinks as per your requirements
+ */
 export const navLinks = [
 	{
 		id: "about",
@@ -42,6 +45,9 @@ export const navLinks = [
 	},
 ];
 
+/**
+ *You can change the service as per your requirements, make sure to import the logo/icon against it
+ */
 const services = [
 	{
 		title: "Web Developer",
@@ -61,6 +67,9 @@ const services = [
 	},
 ];
 
+/**
+ * You can change, add,delete the skills with your skill set
+ */
 const technologies = [
 	{
 		name: "HTML 5",
@@ -116,6 +125,9 @@ const technologies = [
 	},
 ];
 
+/**
+ * Add your experience accordingly
+ */
 const experiences = [
 	{
 		title: "Role/ Title",
@@ -124,7 +136,7 @@ const experiences = [
 		iconBg: "#383E56",
 		date: "start date - end date",
 		points: [
-			"point -1 role decription in point form",
+			"point -1 role description in point form",
 			"point - 2",
 			"point -3 ",
 			"point-4 ",
@@ -137,7 +149,7 @@ const experiences = [
 		iconBg: "#E6DEDD",
 		date: "start date - end date",
 		points: [
-			"point -1 role decription in point form",
+			"point -1 role description in point form",
 			"point - 2",
 			"point -3 ",
 			"point-4 ",
@@ -150,7 +162,7 @@ const experiences = [
 		iconBg: "#383E56",
 		date: "start date - end date",
 		points: [
-			"point -1 role decription in point form",
+			"point -1 role description in point form",
 			"point - 2",
 			"point -3 ",
 			"point-4 ",
@@ -163,7 +175,7 @@ const experiences = [
 		iconBg: "#E6DEDD",
 		date: "start date - end date",
 		points: [
-			"point -1 role decription in point form",
+			"point -1 role description in point form",
 			"point - 2",
 			"point -3 ",
 			"point-4 ",
@@ -174,30 +186,33 @@ const experiences = [
 const testimonials = [
 	{
 		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
+			"eg. I thought it was impossible to make a website as beautiful as our product, but yourName proved me wrong.",
+		name: "testimonial name",
+		designation: "thier designation",
+		company: "company name",
 		image: "https://randomuser.me/api/portraits/women/4.jpg",
 	},
 	{
 		testimonial:
 			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
+		name: "testimonial name",
+		designation: "thier designation",
+		company: "company name",
 		image: "https://randomuser.me/api/portraits/men/5.jpg",
 	},
 	{
 		testimonial:
 			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
+		name: "testimonial name",
+		designation: "thier designation",
+		company: "company name",
 		image: "https://randomuser.me/api/portraits/women/6.jpg",
 	},
 ];
 
+/**
+ * Add your project details. below are the sample ones
+ */
 const projects = [
 	{
 		name: "Car Rent",
